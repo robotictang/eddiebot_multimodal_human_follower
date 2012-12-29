@@ -1,0 +1,29 @@
+<package>
+  <description brief="A ROS driver wrapper for user tracking">
+
+
+  </description>
+
+  <author>Tang Tiong Yew</author>
+
+  <license>BSD</license>
+
+  <url>http://ros.org/wiki/eddiebot_human_follower</url>
+
+  <review status="experimental" notes="beta"/>
+
+  <rosdep name="openni-dev" />
+  <rosdep name="ps-engine" />
+  
+  <depend package="pi_tracker" />
+  <depend package="geometry_msgs" />
+  <depend package="eddiebot_bringup" />
+
+ <platform os="ubuntu" version="12.04"/>
+
+ <export>
+  <cpp cflags="-I/usr/include/openni" />
+  <cpp cflags="`pkg-config --cflags eigen3` -I${prefix}/include `rosboost-cfg --cflags`" 
+         lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lplanning_models"/>
+ </export>
+</package>

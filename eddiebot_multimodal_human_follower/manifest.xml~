@@ -1,0 +1,34 @@
+<package>
+  <description brief="A ROS driver wrapper for user tracking">
+
+
+  </description>
+
+  <author>Tang Tiong Yew</author>
+
+  <license>BSD</license>
+
+  <url>http://ros.org/wiki/nifun</url>
+
+  <review status="experimental" notes="beta"/>
+
+ <!-- <depend package="mapping_msgs" /> -->
+ <!--  <depend package="ps_engine" />-->
+ <!-- <depend package="openni" /> -->
+  <depend package="kinect_tools" />
+
+  <rosdep name="openni-dev" />
+  <rosdep name="ps-engine" />
+
+
+ <!-- <platform os="ubuntu" version="10.04"/> -->
+ <!-- <platform os="ubuntu" version="10.10"/> -->
+
+  <rosdep name="eigen" />
+
+ <export>
+  <cpp cflags="-I/usr/include/openni" />
+  <cpp cflags="`pkg-config --cflags eigen3` -I${prefix}/include `rosboost-cfg --cflags`" 
+         lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lplanning_models"/>
+ </export>
+</package>
