@@ -149,10 +149,5 @@
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
-		<link>
-			<name>[Targets]/[lib] turtlebot_follower/Source Files/follower.cpp</name>
-			<type>1</type>
-			<location>/home/paralax2/fuerte_workspace/sandbox/eddiebot_apps/eddiebot_follower/src/follower.cpp</location>
-		</link>
 	</linkedResources>
 </projectDescription>
