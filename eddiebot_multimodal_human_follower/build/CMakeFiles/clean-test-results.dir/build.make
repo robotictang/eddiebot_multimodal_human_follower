@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower/build
 
 # Utility rule file for clean-test-results.
 
@@ -43,7 +43,7 @@ CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follow
 include CMakeFiles/clean-test-results.dir/progress.make
 
 CMakeFiles/clean-test-results:
-	if ! rm -rf /home/paralax2/.ros/test_results/eddiebot_human_follower; then echo WARNING:\ failed\ to\ remove\ test-results\ directory ; fi
+	if ! rm -rf /home/paralax2/.ros/test_results/eddiebot_multimodal_human_follower; then echo WARNING:\ failed\ to\ remove\ test-results\ directory ; fi
 
 clean-test-results: CMakeFiles/clean-test-results
 clean-test-results: CMakeFiles/clean-test-results.dir/build.make
@@ -58,6 +58,6 @@ CMakeFiles/clean-test-results.dir/clean:
 .PHONY : CMakeFiles/clean-test-results.dir/clean
 
 CMakeFiles/clean-test-results.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower/build /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower/build /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower/build/CMakeFiles/clean-test-results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower/build /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower/build /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower/build/CMakeFiles/clean-test-results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean-test-results.dir/depend
 

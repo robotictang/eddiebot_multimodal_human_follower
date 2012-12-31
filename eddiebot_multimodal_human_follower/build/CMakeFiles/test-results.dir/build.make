@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower/build
 
 # Utility rule file for test-results.
 
@@ -43,7 +43,7 @@ CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follow
 include CMakeFiles/test-results.dir/progress.make
 
 CMakeFiles/test-results:
-	/opt/ros/fuerte/share/rosunit/bin/summarize_results.py --nodeps eddiebot_human_follower
+	/opt/ros/fuerte/share/rosunit/bin/summarize_results.py --nodeps eddiebot_multimodal_human_follower
 
 test-results: CMakeFiles/test-results
 test-results: CMakeFiles/test-results.dir/build.make
@@ -58,6 +58,6 @@ CMakeFiles/test-results.dir/clean:
 .PHONY : CMakeFiles/test-results.dir/clean
 
 CMakeFiles/test-results.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower/build /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower/build /home/paralax2/fuerte_workspace/sandbox/eddiebot_human_follower/build/CMakeFiles/test-results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower/build /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower/build /home/paralax2/github/eddiebot_multimodal_human_follower/eddiebot_multimodal_human_follower/build/CMakeFiles/test-results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test-results.dir/depend
 
